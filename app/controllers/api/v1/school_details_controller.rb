@@ -19,7 +19,7 @@ module Api
       end
 
       def create
-        school_detail = School.new(school_detail_params)
+        school_detail = SchoolDetail.new(school_detail_params)
         if school_detail.save
           render_success({ school: serialized_json(school_detail) },
                          'School details added successfully.')
