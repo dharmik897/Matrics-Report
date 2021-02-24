@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @matrics_detail.year %>
+</p>
+
+<p>
+  <strong>Wrote:</strong>
+  <%= @matrics_detail.wrote %>
+</p>
+
+<p>
+  <strong>Passed:</strong>
+  <%= @matrics_detail.passed %>
+</p>
+
+<%= link_to 'Edit', edit_matrics_detail_path(@matrics_detail) %> |
+<%= link_to 'Back', matrics_details_path %>
