@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_02_24_085809) do
 
   create_table "school_details", force: :cascade do |t|
     t.string "name"
-    t.bigint "center_no"
+    t.bigint "centre_no"
     t.bigint "emis"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
