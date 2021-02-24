@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'chartkick'
 gem 'jsonapi-serializer'
 gem 'pry', '~> 0.13.1'
 
